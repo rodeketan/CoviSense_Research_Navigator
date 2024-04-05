@@ -4,5 +4,5 @@ This project utilizes a comprehensive approach to organize and visualize COVID-1
 Dataset - https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge
 
 <br>
-<a href="url"><img src="https://github.com/rodeketan/TM_COVID/blob/main/Images/bokeh_plot%20(2).png" align="left" height="500" width="800"></a>
+<a href="url"><img src="https://github.com/rodeketan/TM_COVID/blob/main/Images/plot.png" align="left" height="500" width="800"></a>
 
