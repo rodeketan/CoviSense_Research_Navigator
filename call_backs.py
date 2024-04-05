@@ -1,6 +1,5 @@
 from bokeh.models import CustomJS
 
-# handle the currently selected article
 def selected_code():
     code = """
             var titles = [];
@@ -20,10 +19,10 @@ def selected_code():
     """
     return code
 
-# handle the keywords and search
+
 def input_callback(plot, source, out_text, topics): 
 
-    # slider call back for cluster selection
+
     callback = CustomJS(args=dict(p=plot, source=source, out_text=out_text, topics=topics), code="""
 				var key = text.value;
 				key = key.toLowerCase();
